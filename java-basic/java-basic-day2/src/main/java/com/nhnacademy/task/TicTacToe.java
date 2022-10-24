@@ -5,8 +5,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TicTacToe {
-    char[][] board = new char[3][3];
-    int count = 1;
+    private char[][] board = new char[3][3];
+    private int count = 1;
 
     public void initBoard() {
         for (char[] chars : board) {

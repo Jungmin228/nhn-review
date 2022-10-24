@@ -3,7 +3,7 @@ package com.nhnacademy.example;
 import java.util.Random;
 
 public class BubbleSort {
-    int[] numbers = new int[10];
+    private int[] numbers = new int[10];
 
     public void initNumbers() {
         Random random = new Random();

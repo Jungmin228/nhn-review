@@ -6,7 +6,7 @@ import java.util.Random;
 import static java.util.Arrays.stream;
 
 public class LessThan10 {
-    int[] numbers = new int[100];
+    private int[] numbers = new int[100];
 
     public void initNumbers() {
         Random random = new Random();

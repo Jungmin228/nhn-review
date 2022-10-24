@@ -2,6 +2,7 @@ package com.nhnacademy;
 
 import com.nhnacademy.example.BubbleSort;
 import com.nhnacademy.example.LessThan10;
+import com.nhnacademy.task.Calculator;
 import com.nhnacademy.task.TicTacToe;
 
 public class Main {
@@ -21,9 +22,13 @@ public class Main {
 //        lessThan10.printNumbers(true);
 
         // review 틱택토
-        TicTacToe ticTacToe = new TicTacToe();
-        ticTacToe.initBoard();
-        ticTacToe.printBoard();
-        ticTacToe.run();
+//        TicTacToe ticTacToe = new TicTacToe();
+//        ticTacToe.initBoard();
+//        ticTacToe.printBoard();
+//        ticTacToe.run();
+
+        // review 4칙 연산기
+        Calculator calculator = new Calculator();
+        calculator.run();
     }
 }
