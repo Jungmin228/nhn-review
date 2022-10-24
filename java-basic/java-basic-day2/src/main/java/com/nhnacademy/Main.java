@@ -2,6 +2,7 @@ package com.nhnacademy;
 
 import com.nhnacademy.example.BubbleSort;
 import com.nhnacademy.example.LessThan10;
+import com.nhnacademy.task.Accumulator;
 import com.nhnacademy.task.Calculator;
 import com.nhnacademy.task.TicTacToe;
 
@@ -28,7 +29,11 @@ public class Main {
 //        ticTacToe.run();
 
         // review 4칙 연산기
-        Calculator calculator = new Calculator();
-        calculator.run();
+//        Calculator calculator = new Calculator();
+//        calculator.run();
+
+        // review 4칙 누산기
+        Accumulator accumulator = new Accumulator();
+        accumulator.run();
     }
 }
