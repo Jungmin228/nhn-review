@@ -4,6 +4,7 @@ import com.nhnacademy.example.BubbleSort;
 import com.nhnacademy.example.LessThan10;
 import com.nhnacademy.task.Accumulator;
 import com.nhnacademy.task.Calculator;
+import com.nhnacademy.task.DiceGame;
 import com.nhnacademy.task.TicTacToe;
 
 public class Main {
@@ -33,7 +34,11 @@ public class Main {
 //        calculator.run();
 
         // review 4칙 누산기
-        Accumulator accumulator = new Accumulator();
-        accumulator.run();
+//        Accumulator accumulator = new Accumulator();
+//        accumulator.run();
+
+        // review 주사위 게임
+        DiceGame diceGame = new DiceGame();
+        diceGame.run();
     }
 }
