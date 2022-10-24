@@ -2,10 +2,7 @@ package com.nhnacademy;
 
 import com.nhnacademy.example.BubbleSort;
 import com.nhnacademy.example.LessThan10;
-import com.nhnacademy.task.Accumulator;
-import com.nhnacademy.task.Calculator;
-import com.nhnacademy.task.DiceGame;
-import com.nhnacademy.task.TicTacToe;
+import com.nhnacademy.task.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,7 +35,11 @@ public class Main {
 //        accumulator.run();
 
         // review 주사위 게임
-        DiceGame diceGame = new DiceGame();
-        diceGame.run();
+//        DiceGame diceGame = new DiceGame();
+//        diceGame.run();
+
+        // review 가위바위보 게임
+        RockPaperScissors rockPaperScissors = new RockPaperScissors();
+        rockPaperScissors.run();
     }
 }
