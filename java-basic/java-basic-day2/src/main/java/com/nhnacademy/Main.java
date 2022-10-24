@@ -15,10 +15,15 @@ public class Main {
 //        bubbleSort.printNumbers();
 
         // review 길이 100 배열에서 10 이하 숫자 출력
-        LessThan10 lessThan10 = new LessThan10();
-        lessThan10.initNumbers();
-        lessThan10.printNumbers(false);
-        lessThan10.printNumbers(true);
-        
+//        LessThan10 lessThan10 = new LessThan10();
+//        lessThan10.initNumbers();
+//        lessThan10.printNumbers(false);
+//        lessThan10.printNumbers(true);
+
+        // review 틱택토
+        TicTacToe ticTacToe = new TicTacToe();
+        ticTacToe.initBoard();
+        ticTacToe.printBoard();
+        ticTacToe.run();
     }
 }
