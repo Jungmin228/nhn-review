@@ -39,7 +39,7 @@ public class Main {
 //        diceGame.run();
 
         // review 가위바위보 게임
-        RockPaperScissors rockPaperScissors = new RockPaperScissors();
+        RockPaperScissors2 rockPaperScissors = new RockPaperScissors2();
         rockPaperScissors.run();
     }
 }
